@@ -1,0 +1,15 @@
+{
+    "name": "fnvi/email",
+    "description": "Description of project Email.",
+    "authors": [
+        {
+            "name": "Joe Wheatley",
+            "email": "joew@fnvi.co.uk"
+        }
+    ],
+    "autoload":{
+        "psr-4":{
+            "FNVi\\":"src"
+        }
+    }
+}
