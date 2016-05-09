@@ -94,10 +94,10 @@ class Email {
      */
     private function headers(){
         return "From: ".$this->from."\r\n".
-                "Reply-To: ".$this->replyTo."\r\n".
-                "MIME-Version: 1.0\r\n".
-                "Content-Type: text/html; charset=ISO-8859-1\r\n".
-                "X-Mailer: PHP/".  phpversion();
+                "Reply-To: ".$this->replyTo."\r\n". 
+                "MIME-Version: 1.0\r\n". 
+                "Content-Type: text/html; charset=ISO-8859-1\r\n". 
+                "X-Mailer: PHP/".  phpversion(); 
     }
     
     /**
